@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
-    <header className="flex justify-around items-center p-2 bg-gray-200 fixed w-full shadow-md top-0">
+    <header className="flex justify-around items-center p-2 bg-gray-200 absolute z-10 w-full shadow-md top-0">
       <Link to="/">
         <div className="flex flex-col justify-items-center items-center">
           <FontAwesomeIcon icon={faHome} className=" text-black" />
